@@ -1,0 +1,1061 @@
+
+
+<!DOCTYPE html>
+<html class="writer-html5" lang="python" data-content_root="./">
+<head>
+  <meta charset="utf-8" /><meta name="viewport" content="width=device-width, initial-scale=1" />
+
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>models package &mdash; Tienda Virtual  documentation</title>
+      <link rel="stylesheet" type="text/css" href="_static/pygments.css?v=b86133f3" />
+      <link rel="stylesheet" type="text/css" href="_static/css/theme.css?v=e59714d7" />
+
+  
+      <script src="_static/jquery.js?v=5d32c60e"></script>
+      <script src="_static/_sphinx_javascript_frameworks_compat.js?v=2cd50e6c"></script>
+      <script src="_static/documentation_options.js?v=d048f138"></script>
+      <script src="_static/doctools.js?v=9bcbadda"></script>
+      <script src="_static/sphinx_highlight.js?v=dc90522c"></script>
+    <script src="_static/js/theme.js"></script>
+    <link rel="index" title="Index" href="genindex.html" />
+    <link rel="search" title="Search" href="search.html" />
+    <link rel="next" title="modules package" href="modules.html" />
+    <link rel="prev" title="main module" href="main.html" /> 
+</head>
+
+<body class="wy-body-for-nav"> 
+  <div class="wy-grid-for-nav">
+    <nav data-toggle="wy-nav-shift" class="wy-nav-side">
+      <div class="wy-side-scroll">
+        <div class="wy-side-nav-search" >
+
+          
+          
+          <a href="index.html" class="icon icon-home">
+            Tienda Virtual
+          </a>
+<div role="search">
+  <form id="rtd-search-form" class="wy-form" action="search.html" method="get">
+    <input type="text" name="q" placeholder="Search docs" aria-label="Search docs" />
+    <input type="hidden" name="check_keywords" value="yes" />
+    <input type="hidden" name="area" value="default" />
+  </form>
+</div>
+        </div><div class="wy-menu wy-menu-vertical" data-spy="affix" role="navigation" aria-label="Navigation menu">
+              <p class="caption" role="heading"><span class="caption-text">Contents:</span></p>
+<ul class="current">
+<li class="toctree-l1"><a class="reference internal" href="main.html">main module</a></li>
+<li class="toctree-l1 current"><a class="current reference internal" href="#">models package</a><ul>
+<li class="toctree-l2"><a class="reference internal" href="#submodules">Submodules</a></li>
+<li class="toctree-l2"><a class="reference internal" href="#module-models.C01A_DigitalProduct">models.C01A_DigitalProduct module</a><ul>
+<li class="toctree-l3"><a class="reference internal" href="#models.C01A_DigitalProduct.DigitalProduct"><code class="docutils literal notranslate"><span class="pre">DigitalProduct</span></code></a><ul>
+<li class="toctree-l4"><a class="reference internal" href="#models.C01A_DigitalProduct.DigitalProduct.__init__"><code class="docutils literal notranslate"><span class="pre">DigitalProduct.__init__()</span></code></a></li>
+<li class="toctree-l4"><a class="reference internal" href="#models.C01A_DigitalProduct.DigitalProduct._strip_lower"><code class="docutils literal notranslate"><span class="pre">DigitalProduct._strip_lower()</span></code></a></li>
+<li class="toctree-l4"><a class="reference internal" href="#models.C01A_DigitalProduct.DigitalProduct.act_stock"><code class="docutils literal notranslate"><span class="pre">DigitalProduct.act_stock()</span></code></a></li>
+<li class="toctree-l4"><a class="reference internal" href="#models.C01A_DigitalProduct.DigitalProduct.file_size"><code class="docutils literal notranslate"><span class="pre">DigitalProduct.file_size</span></code></a></li>
+<li class="toctree-l4"><a class="reference internal" href="#models.C01A_DigitalProduct.DigitalProduct.format"><code class="docutils literal notranslate"><span class="pre">DigitalProduct.format</span></code></a></li>
+<li class="toctree-l4"><a class="reference internal" href="#models.C01A_DigitalProduct.DigitalProduct.price"><code class="docutils literal notranslate"><span class="pre">DigitalProduct.price</span></code></a></li>
+<li class="toctree-l4"><a class="reference internal" href="#models.C01A_DigitalProduct.DigitalProduct.prod_id"><code class="docutils literal notranslate"><span class="pre">DigitalProduct.prod_id</span></code></a></li>
+<li class="toctree-l4"><a class="reference internal" href="#models.C01A_DigitalProduct.DigitalProduct.prod_name"><code class="docutils literal notranslate"><span class="pre">DigitalProduct.prod_name</span></code></a></li>
+<li class="toctree-l4"><a class="reference internal" href="#models.C01A_DigitalProduct.DigitalProduct.stock"><code class="docutils literal notranslate"><span class="pre">DigitalProduct.stock</span></code></a></li>
+</ul>
+</li>
+</ul>
+</li>
+<li class="toctree-l2"><a class="reference internal" href="#module-models.C01B_PhysicalProduct">models.C01B_PhysicalProduct module</a><ul>
+<li class="toctree-l3"><a class="reference internal" href="#models.C01B_PhysicalProduct.PhysicalProduct"><code class="docutils literal notranslate"><span class="pre">PhysicalProduct</span></code></a><ul>
+<li class="toctree-l4"><a class="reference internal" href="#models.C01B_PhysicalProduct.PhysicalProduct.__init__"><code class="docutils literal notranslate"><span class="pre">PhysicalProduct.__init__()</span></code></a></li>
+<li class="toctree-l4"><a class="reference internal" href="#models.C01B_PhysicalProduct.PhysicalProduct._strip_lower"><code class="docutils literal notranslate"><span class="pre">PhysicalProduct._strip_lower()</span></code></a></li>
+<li class="toctree-l4"><a class="reference internal" href="#models.C01B_PhysicalProduct.PhysicalProduct.act_stock"><code class="docutils literal notranslate"><span class="pre">PhysicalProduct.act_stock()</span></code></a></li>
+<li class="toctree-l4"><a class="reference internal" href="#models.C01B_PhysicalProduct.PhysicalProduct.dimensions"><code class="docutils literal notranslate"><span class="pre">PhysicalProduct.dimensions</span></code></a></li>
+<li class="toctree-l4"><a class="reference internal" href="#models.C01B_PhysicalProduct.PhysicalProduct.price"><code class="docutils literal notranslate"><span class="pre">PhysicalProduct.price</span></code></a></li>
+<li class="toctree-l4"><a class="reference internal" href="#models.C01B_PhysicalProduct.PhysicalProduct.prod_id"><code class="docutils literal notranslate"><span class="pre">PhysicalProduct.prod_id</span></code></a></li>
+<li class="toctree-l4"><a class="reference internal" href="#models.C01B_PhysicalProduct.PhysicalProduct.prod_name"><code class="docutils literal notranslate"><span class="pre">PhysicalProduct.prod_name</span></code></a></li>
+<li class="toctree-l4"><a class="reference internal" href="#models.C01B_PhysicalProduct.PhysicalProduct.stock"><code class="docutils literal notranslate"><span class="pre">PhysicalProduct.stock</span></code></a></li>
+<li class="toctree-l4"><a class="reference internal" href="#models.C01B_PhysicalProduct.PhysicalProduct.weight"><code class="docutils literal notranslate"><span class="pre">PhysicalProduct.weight</span></code></a></li>
+</ul>
+</li>
+</ul>
+</li>
+<li class="toctree-l2"><a class="reference internal" href="#module-models.C01_Product">models.C01_Product module</a><ul>
+<li class="toctree-l3"><a class="reference internal" href="#models.C01_Product.Product"><code class="docutils literal notranslate"><span class="pre">Product</span></code></a><ul>
+<li class="toctree-l4"><a class="reference internal" href="#models.C01_Product.Product.__init__"><code class="docutils literal notranslate"><span class="pre">Product.__init__()</span></code></a></li>
+<li class="toctree-l4"><a class="reference internal" href="#models.C01_Product.Product._strip_lower"><code class="docutils literal notranslate"><span class="pre">Product._strip_lower()</span></code></a></li>
+<li class="toctree-l4"><a class="reference internal" href="#models.C01_Product.Product.act_stock"><code class="docutils literal notranslate"><span class="pre">Product.act_stock()</span></code></a></li>
+<li class="toctree-l4"><a class="reference internal" href="#models.C01_Product.Product.price"><code class="docutils literal notranslate"><span class="pre">Product.price</span></code></a></li>
+<li class="toctree-l4"><a class="reference internal" href="#models.C01_Product.Product.prod_id"><code class="docutils literal notranslate"><span class="pre">Product.prod_id</span></code></a></li>
+<li class="toctree-l4"><a class="reference internal" href="#models.C01_Product.Product.prod_name"><code class="docutils literal notranslate"><span class="pre">Product.prod_name</span></code></a></li>
+<li class="toctree-l4"><a class="reference internal" href="#models.C01_Product.Product.stock"><code class="docutils literal notranslate"><span class="pre">Product.stock</span></code></a></li>
+</ul>
+</li>
+</ul>
+</li>
+<li class="toctree-l2"><a class="reference internal" href="#module-models.C02_Client">models.C02_Client module</a><ul>
+<li class="toctree-l3"><a class="reference internal" href="#models.C02_Client.Client"><code class="docutils literal notranslate"><span class="pre">Client</span></code></a><ul>
+<li class="toctree-l4"><a class="reference internal" href="#models.C02_Client.Client.__init__"><code class="docutils literal notranslate"><span class="pre">Client.__init__()</span></code></a></li>
+<li class="toctree-l4"><a class="reference internal" href="#models.C02_Client.Client.__strip_lower"><code class="docutils literal notranslate"><span class="pre">Client.__strip_lower()</span></code></a></li>
+<li class="toctree-l4"><a class="reference internal" href="#models.C02_Client.Client.client_id"><code class="docutils literal notranslate"><span class="pre">Client.client_id</span></code></a></li>
+<li class="toctree-l4"><a class="reference internal" href="#models.C02_Client.Client.client_name"><code class="docutils literal notranslate"><span class="pre">Client.client_name</span></code></a></li>
+<li class="toctree-l4"><a class="reference internal" href="#models.C02_Client.Client.email"><code class="docutils literal notranslate"><span class="pre">Client.email</span></code></a></li>
+<li class="toctree-l4"><a class="reference internal" href="#models.C02_Client.Client.shipping_address"><code class="docutils literal notranslate"><span class="pre">Client.shipping_address</span></code></a></li>
+</ul>
+</li>
+</ul>
+</li>
+<li class="toctree-l2"><a class="reference internal" href="#module-models.C03_Order">models.C03_Order module</a><ul>
+<li class="toctree-l3"><a class="reference internal" href="#models.C03_Order.Order"><code class="docutils literal notranslate"><span class="pre">Order</span></code></a><ul>
+<li class="toctree-l4"><a class="reference internal" href="#models.C03_Order.Order.__init__"><code class="docutils literal notranslate"><span class="pre">Order.__init__()</span></code></a></li>
+<li class="toctree-l4"><a class="reference internal" href="#models.C03_Order.Order.__strip_lower"><code class="docutils literal notranslate"><span class="pre">Order.__strip_lower()</span></code></a></li>
+<li class="toctree-l4"><a class="reference internal" href="#models.C03_Order.Order.add_prod"><code class="docutils literal notranslate"><span class="pre">Order.add_prod()</span></code></a></li>
+<li class="toctree-l4"><a class="reference internal" href="#models.C03_Order.Order.calc_total"><code class="docutils literal notranslate"><span class="pre">Order.calc_total()</span></code></a></li>
+<li class="toctree-l4"><a class="reference internal" href="#models.C03_Order.Order.client"><code class="docutils literal notranslate"><span class="pre">Order.client</span></code></a></li>
+<li class="toctree-l4"><a class="reference internal" href="#models.C03_Order.Order.date"><code class="docutils literal notranslate"><span class="pre">Order.date</span></code></a></li>
+<li class="toctree-l4"><a class="reference internal" href="#models.C03_Order.Order.id"><code class="docutils literal notranslate"><span class="pre">Order.id</span></code></a></li>
+<li class="toctree-l4"><a class="reference internal" href="#models.C03_Order.Order.order_id"><code class="docutils literal notranslate"><span class="pre">Order.order_id</span></code></a></li>
+<li class="toctree-l4"><a class="reference internal" href="#models.C03_Order.Order.products"><code class="docutils literal notranslate"><span class="pre">Order.products</span></code></a></li>
+<li class="toctree-l4"><a class="reference internal" href="#models.C03_Order.Order.show_product"><code class="docutils literal notranslate"><span class="pre">Order.show_product()</span></code></a></li>
+</ul>
+</li>
+</ul>
+</li>
+<li class="toctree-l2"><a class="reference internal" href="#module-models.C04_Review">models.C04_Review module</a><ul>
+<li class="toctree-l3"><a class="reference internal" href="#models.C04_Review.Review"><code class="docutils literal notranslate"><span class="pre">Review</span></code></a><ul>
+<li class="toctree-l4"><a class="reference internal" href="#models.C04_Review.Review.__init__"><code class="docutils literal notranslate"><span class="pre">Review.__init__()</span></code></a></li>
+<li class="toctree-l4"><a class="reference internal" href="#models.C04_Review.Review._strip_lower"><code class="docutils literal notranslate"><span class="pre">Review._strip_lower()</span></code></a></li>
+<li class="toctree-l4"><a class="reference internal" href="#models.C04_Review.Review.act_stock"><code class="docutils literal notranslate"><span class="pre">Review.act_stock()</span></code></a></li>
+<li class="toctree-l4"><a class="reference internal" href="#models.C04_Review.Review.client_id"><code class="docutils literal notranslate"><span class="pre">Review.client_id</span></code></a></li>
+<li class="toctree-l4"><a class="reference internal" href="#models.C04_Review.Review.client_name"><code class="docutils literal notranslate"><span class="pre">Review.client_name</span></code></a></li>
+<li class="toctree-l4"><a class="reference internal" href="#models.C04_Review.Review.commentary"><code class="docutils literal notranslate"><span class="pre">Review.commentary</span></code></a></li>
+<li class="toctree-l4"><a class="reference internal" href="#models.C04_Review.Review.email"><code class="docutils literal notranslate"><span class="pre">Review.email</span></code></a></li>
+<li class="toctree-l4"><a class="reference internal" href="#models.C04_Review.Review.price"><code class="docutils literal notranslate"><span class="pre">Review.price</span></code></a></li>
+<li class="toctree-l4"><a class="reference internal" href="#models.C04_Review.Review.prod_id"><code class="docutils literal notranslate"><span class="pre">Review.prod_id</span></code></a></li>
+<li class="toctree-l4"><a class="reference internal" href="#models.C04_Review.Review.prod_name"><code class="docutils literal notranslate"><span class="pre">Review.prod_name</span></code></a></li>
+<li class="toctree-l4"><a class="reference internal" href="#models.C04_Review.Review.rating"><code class="docutils literal notranslate"><span class="pre">Review.rating</span></code></a></li>
+<li class="toctree-l4"><a class="reference internal" href="#models.C04_Review.Review.review_id"><code class="docutils literal notranslate"><span class="pre">Review.review_id</span></code></a></li>
+<li class="toctree-l4"><a class="reference internal" href="#models.C04_Review.Review.shipping_address"><code class="docutils literal notranslate"><span class="pre">Review.shipping_address</span></code></a></li>
+<li class="toctree-l4"><a class="reference internal" href="#models.C04_Review.Review.stock"><code class="docutils literal notranslate"><span class="pre">Review.stock</span></code></a></li>
+</ul>
+</li>
+</ul>
+</li>
+<li class="toctree-l2"><a class="reference internal" href="#module-models">Module contents</a></li>
+</ul>
+</li>
+<li class="toctree-l1"><a class="reference internal" href="modules.html">modules package</a></li>
+</ul>
+
+        </div>
+      </div>
+    </nav>
+
+    <section data-toggle="wy-nav-shift" class="wy-nav-content-wrap"><nav class="wy-nav-top" aria-label="Mobile navigation menu" >
+          <i data-toggle="wy-nav-top" class="fa fa-bars"></i>
+          <a href="index.html">Tienda Virtual</a>
+      </nav>
+
+      <div class="wy-nav-content">
+        <div class="rst-content">
+          <div role="navigation" aria-label="Page navigation">
+  <ul class="wy-breadcrumbs">
+      <li><a href="index.html" class="icon icon-home" aria-label="Home"></a></li>
+      <li class="breadcrumb-item active">models package</li>
+      <li class="wy-breadcrumbs-aside">
+            <a href="_sources/models.rst.txt" rel="nofollow"> View page source</a>
+      </li>
+  </ul>
+  <hr/>
+</div>
+          <div role="main" class="document" itemscope="itemscope" itemtype="http://schema.org/Article">
+           <div itemprop="articleBody">
+             
+  <section id="models-package">
+<h1>models package<a class="headerlink" href="#models-package" title="Link to this heading"></a></h1>
+<section id="submodules">
+<h2>Submodules<a class="headerlink" href="#submodules" title="Link to this heading"></a></h2>
+</section>
+<section id="module-models.C01A_DigitalProduct">
+<span id="models-c01a-digitalproduct-module"></span><h2>models.C01A_DigitalProduct module<a class="headerlink" href="#module-models.C01A_DigitalProduct" title="Link to this heading"></a></h2>
+<dl class="py class">
+<dt class="sig sig-object py" id="models.C01A_DigitalProduct.DigitalProduct">
+<em class="property"><span class="k"><span class="pre">class</span></span><span class="w"> </span></em><span class="sig-prename descclassname"><span class="pre">models.C01A_DigitalProduct.</span></span><span class="sig-name descname"><span class="pre">DigitalProduct</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">id</span></span><span class="p"><span class="pre">:</span></span><span class="w"> </span><span class="n"><span class="pre">str</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">name</span></span><span class="p"><span class="pre">:</span></span><span class="w"> </span><span class="n"><span class="pre">str</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">price</span></span><span class="p"><span class="pre">:</span></span><span class="w"> </span><span class="n"><span class="pre">float</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">stock</span></span><span class="p"><span class="pre">:</span></span><span class="w"> </span><span class="n"><span class="pre">int</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">format</span></span><span class="p"><span class="pre">:</span></span><span class="w"> </span><span class="n"><span class="pre">str</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">file_size</span></span><span class="p"><span class="pre">:</span></span><span class="w"> </span><span class="n"><span class="pre">float</span></span></em><span class="sig-paren">)</span><a class="reference internal" href="_modules/models/C01A_DigitalProduct.html#DigitalProduct"><span class="viewcode-link"><span class="pre">[source]</span></span></a><a class="headerlink" href="#models.C01A_DigitalProduct.DigitalProduct" title="Link to this definition"></a></dt>
+<dd><p>Bases: <a class="reference internal" href="#models.C01_Product.Product" title="models.C01_Product.Product"><code class="xref py py-class docutils literal notranslate"><span class="pre">Product</span></code></a></p>
+<p>Representa un producto digital, que hereda de Product, con formato y tamaño de archivo.</p>
+<dl class="py method">
+<dt class="sig sig-object py" id="models.C01A_DigitalProduct.DigitalProduct.__init__">
+<span class="sig-name descname"><span class="pre">__init__</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">id</span></span><span class="p"><span class="pre">:</span></span><span class="w"> </span><span class="n"><span class="pre">str</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">name</span></span><span class="p"><span class="pre">:</span></span><span class="w"> </span><span class="n"><span class="pre">str</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">price</span></span><span class="p"><span class="pre">:</span></span><span class="w"> </span><span class="n"><span class="pre">float</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">stock</span></span><span class="p"><span class="pre">:</span></span><span class="w"> </span><span class="n"><span class="pre">int</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">format</span></span><span class="p"><span class="pre">:</span></span><span class="w"> </span><span class="n"><span class="pre">str</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">file_size</span></span><span class="p"><span class="pre">:</span></span><span class="w"> </span><span class="n"><span class="pre">float</span></span></em><span class="sig-paren">)</span><a class="reference internal" href="_modules/models/C01A_DigitalProduct.html#DigitalProduct.__init__"><span class="viewcode-link"><span class="pre">[source]</span></span></a><a class="headerlink" href="#models.C01A_DigitalProduct.DigitalProduct.__init__" title="Link to this definition"></a></dt>
+<dd><p>Inicializa un nuevo producto digital.</p>
+<dl class="field-list simple">
+<dt class="field-odd">Parameters<span class="colon">:</span></dt>
+<dd class="field-odd"><ul class="simple">
+<li><p><strong>id</strong> (<em>str</em>) -- Identificador del producto.</p></li>
+<li><p><strong>name</strong> (<em>str</em>) -- Nombre del producto.</p></li>
+<li><p><strong>price</strong> (<em>float</em>) -- Precio del producto.</p></li>
+<li><p><strong>stock</strong> (<em>int</em>) -- Cantidad de unidades disponibles.</p></li>
+<li><p><strong>format</strong> (<em>str</em>) -- Formato del archivo digital (ej: PDF, MP3).</p></li>
+<li><p><strong>file_size</strong> (<em>float</em>) -- Tamaño del archivo en MB.</p></li>
+</ul>
+</dd>
+</dl>
+</dd></dl>
+
+<dl class="py method">
+<dt class="sig sig-object py" id="models.C01A_DigitalProduct.DigitalProduct._strip_lower">
+<span class="sig-name descname"><span class="pre">_strip_lower</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">string</span></span></em><span class="sig-paren">)</span><a class="reference internal" href="_modules/models/C01A_DigitalProduct.html#DigitalProduct._strip_lower"><span class="viewcode-link"><span class="pre">[source]</span></span></a><a class="headerlink" href="#models.C01A_DigitalProduct.DigitalProduct._strip_lower" title="Link to this definition"></a></dt>
+<dd><p>Normaliza una cadena eliminando espacios y convirtiéndola a minúsculas.</p>
+<dl class="field-list simple">
+<dt class="field-odd">Parameters<span class="colon">:</span></dt>
+<dd class="field-odd"><p><strong>string</strong> (<em>str</em>) -- Cadena a normalizar.</p>
+</dd>
+<dt class="field-even">Returns<span class="colon">:</span></dt>
+<dd class="field-even"><p>Cadena normalizada.</p>
+</dd>
+<dt class="field-odd">Return type<span class="colon">:</span></dt>
+<dd class="field-odd"><p>str</p>
+</dd>
+</dl>
+</dd></dl>
+
+<dl class="py method">
+<dt class="sig sig-object py" id="models.C01A_DigitalProduct.DigitalProduct.act_stock">
+<span class="sig-name descname"><span class="pre">act_stock</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">quantity</span></span><span class="p"><span class="pre">:</span></span><span class="w"> </span><span class="n"><span class="pre">int</span></span></em><span class="sig-paren">)</span><a class="headerlink" href="#models.C01A_DigitalProduct.DigitalProduct.act_stock" title="Link to this definition"></a></dt>
+<dd><p>Actualiza la cantidad de stock del producto.</p>
+<dl class="field-list simple">
+<dt class="field-odd">Parameters<span class="colon">:</span></dt>
+<dd class="field-odd"><p><strong>quantity</strong> (<em>int</em>) -- Nueva cantidad de stock.</p>
+</dd>
+</dl>
+</dd></dl>
+
+<dl class="py property">
+<dt class="sig sig-object py" id="models.C01A_DigitalProduct.DigitalProduct.file_size">
+<em class="property"><span class="k"><span class="pre">property</span></span><span class="w"> </span></em><span class="sig-name descname"><span class="pre">file_size</span></span><a class="headerlink" href="#models.C01A_DigitalProduct.DigitalProduct.file_size" title="Link to this definition"></a></dt>
+<dd><p>Obtiene el tamaño del archivo del producto digital.</p>
+<dl class="field-list simple">
+<dt class="field-odd">Returns<span class="colon">:</span></dt>
+<dd class="field-odd"><p>Tamaño del archivo en MB.</p>
+</dd>
+<dt class="field-even">Return type<span class="colon">:</span></dt>
+<dd class="field-even"><p>float</p>
+</dd>
+</dl>
+</dd></dl>
+
+<dl class="py property">
+<dt class="sig sig-object py" id="models.C01A_DigitalProduct.DigitalProduct.format">
+<em class="property"><span class="k"><span class="pre">property</span></span><span class="w"> </span></em><span class="sig-name descname"><span class="pre">format</span></span><a class="headerlink" href="#models.C01A_DigitalProduct.DigitalProduct.format" title="Link to this definition"></a></dt>
+<dd><p>Obtiene el formato del producto digital.</p>
+<dl class="field-list simple">
+<dt class="field-odd">Returns<span class="colon">:</span></dt>
+<dd class="field-odd"><p>Formato del archivo.</p>
+</dd>
+<dt class="field-even">Return type<span class="colon">:</span></dt>
+<dd class="field-even"><p>str</p>
+</dd>
+</dl>
+</dd></dl>
+
+<dl class="py property">
+<dt class="sig sig-object py" id="models.C01A_DigitalProduct.DigitalProduct.price">
+<em class="property"><span class="k"><span class="pre">property</span></span><span class="w"> </span></em><span class="sig-name descname"><span class="pre">price</span></span><a class="headerlink" href="#models.C01A_DigitalProduct.DigitalProduct.price" title="Link to this definition"></a></dt>
+<dd><p>Obtiene el precio del producto.</p>
+<dl class="field-list simple">
+<dt class="field-odd">Returns<span class="colon">:</span></dt>
+<dd class="field-odd"><p>Precio del producto.</p>
+</dd>
+<dt class="field-even">Return type<span class="colon">:</span></dt>
+<dd class="field-even"><p>float</p>
+</dd>
+</dl>
+</dd></dl>
+
+<dl class="py property">
+<dt class="sig sig-object py" id="models.C01A_DigitalProduct.DigitalProduct.prod_id">
+<em class="property"><span class="k"><span class="pre">property</span></span><span class="w"> </span></em><span class="sig-name descname"><span class="pre">prod_id</span></span><a class="headerlink" href="#models.C01A_DigitalProduct.DigitalProduct.prod_id" title="Link to this definition"></a></dt>
+<dd><p>Obtiene el ID del producto.</p>
+<dl class="field-list simple">
+<dt class="field-odd">Returns<span class="colon">:</span></dt>
+<dd class="field-odd"><p>ID del producto.</p>
+</dd>
+<dt class="field-even">Return type<span class="colon">:</span></dt>
+<dd class="field-even"><p>str</p>
+</dd>
+</dl>
+</dd></dl>
+
+<dl class="py property">
+<dt class="sig sig-object py" id="models.C01A_DigitalProduct.DigitalProduct.prod_name">
+<em class="property"><span class="k"><span class="pre">property</span></span><span class="w"> </span></em><span class="sig-name descname"><span class="pre">prod_name</span></span><a class="headerlink" href="#models.C01A_DigitalProduct.DigitalProduct.prod_name" title="Link to this definition"></a></dt>
+<dd><p>Obtiene el nombre del producto.</p>
+<dl class="field-list simple">
+<dt class="field-odd">Returns<span class="colon">:</span></dt>
+<dd class="field-odd"><p>Nombre del producto.</p>
+</dd>
+<dt class="field-even">Return type<span class="colon">:</span></dt>
+<dd class="field-even"><p>str</p>
+</dd>
+</dl>
+</dd></dl>
+
+<dl class="py property">
+<dt class="sig sig-object py" id="models.C01A_DigitalProduct.DigitalProduct.stock">
+<em class="property"><span class="k"><span class="pre">property</span></span><span class="w"> </span></em><span class="sig-name descname"><span class="pre">stock</span></span><a class="headerlink" href="#models.C01A_DigitalProduct.DigitalProduct.stock" title="Link to this definition"></a></dt>
+<dd><p>Obtiene la cantidad de stock del producto.</p>
+<dl class="field-list simple">
+<dt class="field-odd">Returns<span class="colon">:</span></dt>
+<dd class="field-odd"><p>Stock disponible.</p>
+</dd>
+<dt class="field-even">Return type<span class="colon">:</span></dt>
+<dd class="field-even"><p>int</p>
+</dd>
+</dl>
+</dd></dl>
+
+</dd></dl>
+
+</section>
+<section id="module-models.C01B_PhysicalProduct">
+<span id="models-c01b-physicalproduct-module"></span><h2>models.C01B_PhysicalProduct module<a class="headerlink" href="#module-models.C01B_PhysicalProduct" title="Link to this heading"></a></h2>
+<dl class="py class">
+<dt class="sig sig-object py" id="models.C01B_PhysicalProduct.PhysicalProduct">
+<em class="property"><span class="k"><span class="pre">class</span></span><span class="w"> </span></em><span class="sig-prename descclassname"><span class="pre">models.C01B_PhysicalProduct.</span></span><span class="sig-name descname"><span class="pre">PhysicalProduct</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">id</span></span><span class="p"><span class="pre">:</span></span><span class="w"> </span><span class="n"><span class="pre">str</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">name</span></span><span class="p"><span class="pre">:</span></span><span class="w"> </span><span class="n"><span class="pre">str</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">price</span></span><span class="p"><span class="pre">:</span></span><span class="w"> </span><span class="n"><span class="pre">float</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">stock</span></span><span class="p"><span class="pre">:</span></span><span class="w"> </span><span class="n"><span class="pre">int</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">weight</span></span><span class="p"><span class="pre">:</span></span><span class="w"> </span><span class="n"><span class="pre">float</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">dimensions</span></span><span class="p"><span class="pre">:</span></span><span class="w"> </span><span class="n"><span class="pre">str</span></span></em><span class="sig-paren">)</span><a class="reference internal" href="_modules/models/C01B_PhysicalProduct.html#PhysicalProduct"><span class="viewcode-link"><span class="pre">[source]</span></span></a><a class="headerlink" href="#models.C01B_PhysicalProduct.PhysicalProduct" title="Link to this definition"></a></dt>
+<dd><p>Bases: <a class="reference internal" href="#models.C01_Product.Product" title="models.C01_Product.Product"><code class="xref py py-class docutils literal notranslate"><span class="pre">Product</span></code></a></p>
+<p>Representa un producto físico, que hereda de Product, con peso y dimensiones.</p>
+<dl class="py method">
+<dt class="sig sig-object py" id="models.C01B_PhysicalProduct.PhysicalProduct.__init__">
+<span class="sig-name descname"><span class="pre">__init__</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">id</span></span><span class="p"><span class="pre">:</span></span><span class="w"> </span><span class="n"><span class="pre">str</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">name</span></span><span class="p"><span class="pre">:</span></span><span class="w"> </span><span class="n"><span class="pre">str</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">price</span></span><span class="p"><span class="pre">:</span></span><span class="w"> </span><span class="n"><span class="pre">float</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">stock</span></span><span class="p"><span class="pre">:</span></span><span class="w"> </span><span class="n"><span class="pre">int</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">weight</span></span><span class="p"><span class="pre">:</span></span><span class="w"> </span><span class="n"><span class="pre">float</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">dimensions</span></span><span class="p"><span class="pre">:</span></span><span class="w"> </span><span class="n"><span class="pre">str</span></span></em><span class="sig-paren">)</span><a class="reference internal" href="_modules/models/C01B_PhysicalProduct.html#PhysicalProduct.__init__"><span class="viewcode-link"><span class="pre">[source]</span></span></a><a class="headerlink" href="#models.C01B_PhysicalProduct.PhysicalProduct.__init__" title="Link to this definition"></a></dt>
+<dd><p>Inicializa un nuevo producto físico.</p>
+<dl class="field-list simple">
+<dt class="field-odd">Parameters<span class="colon">:</span></dt>
+<dd class="field-odd"><ul class="simple">
+<li><p><strong>id</strong> (<em>str</em>) -- Identificador del producto.</p></li>
+<li><p><strong>name</strong> (<em>str</em>) -- Nombre del producto.</p></li>
+<li><p><strong>price</strong> (<em>float</em>) -- Precio del producto.</p></li>
+<li><p><strong>stock</strong> (<em>int</em>) -- Cantidad de unidades disponibles.</p></li>
+<li><p><strong>weight</strong> (<em>float</em>) -- Peso del producto en kilogramos.</p></li>
+<li><p><strong>dimensions</strong> (<em>str</em>) -- Dimensiones físicas del producto (ej. &quot;30x20x15 cm&quot;).</p></li>
+</ul>
+</dd>
+</dl>
+</dd></dl>
+
+<dl class="py method">
+<dt class="sig sig-object py" id="models.C01B_PhysicalProduct.PhysicalProduct._strip_lower">
+<span class="sig-name descname"><span class="pre">_strip_lower</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">string</span></span><span class="p"><span class="pre">:</span></span><span class="w"> </span><span class="n"><span class="pre">str</span></span></em><span class="sig-paren">)</span><a class="headerlink" href="#models.C01B_PhysicalProduct.PhysicalProduct._strip_lower" title="Link to this definition"></a></dt>
+<dd><p>Elimina espacios y convierte a minúsculas una cadena.</p>
+<dl class="field-list simple">
+<dt class="field-odd">Parameters<span class="colon">:</span></dt>
+<dd class="field-odd"><p><strong>string</strong> (<em>str</em>) -- Cadena de texto a procesar.</p>
+</dd>
+<dt class="field-even">Returns<span class="colon">:</span></dt>
+<dd class="field-even"><p>Cadena normalizada (sin espacios y en minúsculas).</p>
+</dd>
+<dt class="field-odd">Return type<span class="colon">:</span></dt>
+<dd class="field-odd"><p>str</p>
+</dd>
+</dl>
+</dd></dl>
+
+<dl class="py method">
+<dt class="sig sig-object py" id="models.C01B_PhysicalProduct.PhysicalProduct.act_stock">
+<span class="sig-name descname"><span class="pre">act_stock</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">quantity</span></span><span class="p"><span class="pre">:</span></span><span class="w"> </span><span class="n"><span class="pre">int</span></span></em><span class="sig-paren">)</span><a class="headerlink" href="#models.C01B_PhysicalProduct.PhysicalProduct.act_stock" title="Link to this definition"></a></dt>
+<dd><p>Actualiza la cantidad de stock del producto.</p>
+<dl class="field-list simple">
+<dt class="field-odd">Parameters<span class="colon">:</span></dt>
+<dd class="field-odd"><p><strong>quantity</strong> (<em>int</em>) -- Nueva cantidad de stock.</p>
+</dd>
+</dl>
+</dd></dl>
+
+<dl class="py property">
+<dt class="sig sig-object py" id="models.C01B_PhysicalProduct.PhysicalProduct.dimensions">
+<em class="property"><span class="k"><span class="pre">property</span></span><span class="w"> </span></em><span class="sig-name descname"><span class="pre">dimensions</span></span><a class="headerlink" href="#models.C01B_PhysicalProduct.PhysicalProduct.dimensions" title="Link to this definition"></a></dt>
+<dd><p>Obtiene las dimensiones del producto.</p>
+<dl class="field-list simple">
+<dt class="field-odd">Returns<span class="colon">:</span></dt>
+<dd class="field-odd"><p>Dimensiones físicas del producto.</p>
+</dd>
+<dt class="field-even">Return type<span class="colon">:</span></dt>
+<dd class="field-even"><p>str</p>
+</dd>
+</dl>
+</dd></dl>
+
+<dl class="py property">
+<dt class="sig sig-object py" id="models.C01B_PhysicalProduct.PhysicalProduct.price">
+<em class="property"><span class="k"><span class="pre">property</span></span><span class="w"> </span></em><span class="sig-name descname"><span class="pre">price</span></span><a class="headerlink" href="#models.C01B_PhysicalProduct.PhysicalProduct.price" title="Link to this definition"></a></dt>
+<dd><p>Obtiene el precio del producto.</p>
+<dl class="field-list simple">
+<dt class="field-odd">Returns<span class="colon">:</span></dt>
+<dd class="field-odd"><p>Precio del producto.</p>
+</dd>
+<dt class="field-even">Return type<span class="colon">:</span></dt>
+<dd class="field-even"><p>float</p>
+</dd>
+</dl>
+</dd></dl>
+
+<dl class="py property">
+<dt class="sig sig-object py" id="models.C01B_PhysicalProduct.PhysicalProduct.prod_id">
+<em class="property"><span class="k"><span class="pre">property</span></span><span class="w"> </span></em><span class="sig-name descname"><span class="pre">prod_id</span></span><a class="headerlink" href="#models.C01B_PhysicalProduct.PhysicalProduct.prod_id" title="Link to this definition"></a></dt>
+<dd><p>Obtiene el ID del producto.</p>
+<dl class="field-list simple">
+<dt class="field-odd">Returns<span class="colon">:</span></dt>
+<dd class="field-odd"><p>ID del producto.</p>
+</dd>
+<dt class="field-even">Return type<span class="colon">:</span></dt>
+<dd class="field-even"><p>str</p>
+</dd>
+</dl>
+</dd></dl>
+
+<dl class="py property">
+<dt class="sig sig-object py" id="models.C01B_PhysicalProduct.PhysicalProduct.prod_name">
+<em class="property"><span class="k"><span class="pre">property</span></span><span class="w"> </span></em><span class="sig-name descname"><span class="pre">prod_name</span></span><a class="headerlink" href="#models.C01B_PhysicalProduct.PhysicalProduct.prod_name" title="Link to this definition"></a></dt>
+<dd><p>Obtiene el nombre del producto.</p>
+<dl class="field-list simple">
+<dt class="field-odd">Returns<span class="colon">:</span></dt>
+<dd class="field-odd"><p>Nombre del producto.</p>
+</dd>
+<dt class="field-even">Return type<span class="colon">:</span></dt>
+<dd class="field-even"><p>str</p>
+</dd>
+</dl>
+</dd></dl>
+
+<dl class="py property">
+<dt class="sig sig-object py" id="models.C01B_PhysicalProduct.PhysicalProduct.stock">
+<em class="property"><span class="k"><span class="pre">property</span></span><span class="w"> </span></em><span class="sig-name descname"><span class="pre">stock</span></span><a class="headerlink" href="#models.C01B_PhysicalProduct.PhysicalProduct.stock" title="Link to this definition"></a></dt>
+<dd><p>Obtiene la cantidad de stock del producto.</p>
+<dl class="field-list simple">
+<dt class="field-odd">Returns<span class="colon">:</span></dt>
+<dd class="field-odd"><p>Stock disponible.</p>
+</dd>
+<dt class="field-even">Return type<span class="colon">:</span></dt>
+<dd class="field-even"><p>int</p>
+</dd>
+</dl>
+</dd></dl>
+
+<dl class="py property">
+<dt class="sig sig-object py" id="models.C01B_PhysicalProduct.PhysicalProduct.weight">
+<em class="property"><span class="k"><span class="pre">property</span></span><span class="w"> </span></em><span class="sig-name descname"><span class="pre">weight</span></span><a class="headerlink" href="#models.C01B_PhysicalProduct.PhysicalProduct.weight" title="Link to this definition"></a></dt>
+<dd><p>Obtiene el peso del producto.</p>
+<dl class="field-list simple">
+<dt class="field-odd">Returns<span class="colon">:</span></dt>
+<dd class="field-odd"><p>Peso en kilogramos.</p>
+</dd>
+<dt class="field-even">Return type<span class="colon">:</span></dt>
+<dd class="field-even"><p>float</p>
+</dd>
+</dl>
+</dd></dl>
+
+</dd></dl>
+
+</section>
+<section id="module-models.C01_Product">
+<span id="models-c01-product-module"></span><h2>models.C01_Product module<a class="headerlink" href="#module-models.C01_Product" title="Link to this heading"></a></h2>
+<dl class="py class">
+<dt class="sig sig-object py" id="models.C01_Product.Product">
+<em class="property"><span class="k"><span class="pre">class</span></span><span class="w"> </span></em><span class="sig-prename descclassname"><span class="pre">models.C01_Product.</span></span><span class="sig-name descname"><span class="pre">Product</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">id</span></span><span class="p"><span class="pre">:</span></span><span class="w"> </span><span class="n"><span class="pre">str</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">name</span></span><span class="p"><span class="pre">:</span></span><span class="w"> </span><span class="n"><span class="pre">str</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">price</span></span><span class="p"><span class="pre">:</span></span><span class="w"> </span><span class="n"><span class="pre">float</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">stock</span></span><span class="p"><span class="pre">:</span></span><span class="w"> </span><span class="n"><span class="pre">int</span></span></em><span class="sig-paren">)</span><a class="reference internal" href="_modules/models/C01_Product.html#Product"><span class="viewcode-link"><span class="pre">[source]</span></span></a><a class="headerlink" href="#models.C01_Product.Product" title="Link to this definition"></a></dt>
+<dd><p>Bases: <code class="xref py py-class docutils literal notranslate"><span class="pre">object</span></code></p>
+<p>Representa un producto con ID, nombre, precio y stock.</p>
+<dl class="py method">
+<dt class="sig sig-object py" id="models.C01_Product.Product.__init__">
+<span class="sig-name descname"><span class="pre">__init__</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">id</span></span><span class="p"><span class="pre">:</span></span><span class="w"> </span><span class="n"><span class="pre">str</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">name</span></span><span class="p"><span class="pre">:</span></span><span class="w"> </span><span class="n"><span class="pre">str</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">price</span></span><span class="p"><span class="pre">:</span></span><span class="w"> </span><span class="n"><span class="pre">float</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">stock</span></span><span class="p"><span class="pre">:</span></span><span class="w"> </span><span class="n"><span class="pre">int</span></span></em><span class="sig-paren">)</span><a class="reference internal" href="_modules/models/C01_Product.html#Product.__init__"><span class="viewcode-link"><span class="pre">[source]</span></span></a><a class="headerlink" href="#models.C01_Product.Product.__init__" title="Link to this definition"></a></dt>
+<dd><p>Inicializa un nuevo producto.</p>
+<dl class="field-list simple">
+<dt class="field-odd">Parameters<span class="colon">:</span></dt>
+<dd class="field-odd"><ul class="simple">
+<li><p><strong>id</strong> (<em>str</em>) -- Identificador único del producto.</p></li>
+<li><p><strong>name</strong> (<em>str</em>) -- Nombre del producto.</p></li>
+<li><p><strong>price</strong> (<em>float</em>) -- Precio del producto.</p></li>
+<li><p><strong>stock</strong> (<em>int</em>) -- Cantidad de unidades en stock.</p></li>
+</ul>
+</dd>
+</dl>
+</dd></dl>
+
+<dl class="py method">
+<dt class="sig sig-object py" id="models.C01_Product.Product._strip_lower">
+<span class="sig-name descname"><span class="pre">_strip_lower</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">string</span></span><span class="p"><span class="pre">:</span></span><span class="w"> </span><span class="n"><span class="pre">str</span></span></em><span class="sig-paren">)</span><a class="reference internal" href="_modules/models/C01_Product.html#Product._strip_lower"><span class="viewcode-link"><span class="pre">[source]</span></span></a><a class="headerlink" href="#models.C01_Product.Product._strip_lower" title="Link to this definition"></a></dt>
+<dd><p>Elimina espacios y convierte a minúsculas una cadena.</p>
+<dl class="field-list simple">
+<dt class="field-odd">Parameters<span class="colon">:</span></dt>
+<dd class="field-odd"><p><strong>string</strong> (<em>str</em>) -- Cadena de texto a procesar.</p>
+</dd>
+<dt class="field-even">Returns<span class="colon">:</span></dt>
+<dd class="field-even"><p>Cadena normalizada (sin espacios y en minúsculas).</p>
+</dd>
+<dt class="field-odd">Return type<span class="colon">:</span></dt>
+<dd class="field-odd"><p>str</p>
+</dd>
+</dl>
+</dd></dl>
+
+<dl class="py method">
+<dt class="sig sig-object py" id="models.C01_Product.Product.act_stock">
+<span class="sig-name descname"><span class="pre">act_stock</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">quantity</span></span><span class="p"><span class="pre">:</span></span><span class="w"> </span><span class="n"><span class="pre">int</span></span></em><span class="sig-paren">)</span><a class="reference internal" href="_modules/models/C01_Product.html#Product.act_stock"><span class="viewcode-link"><span class="pre">[source]</span></span></a><a class="headerlink" href="#models.C01_Product.Product.act_stock" title="Link to this definition"></a></dt>
+<dd><p>Actualiza la cantidad de stock del producto.</p>
+<dl class="field-list simple">
+<dt class="field-odd">Parameters<span class="colon">:</span></dt>
+<dd class="field-odd"><p><strong>quantity</strong> (<em>int</em>) -- Nueva cantidad de stock.</p>
+</dd>
+</dl>
+</dd></dl>
+
+<dl class="py property">
+<dt class="sig sig-object py" id="models.C01_Product.Product.price">
+<em class="property"><span class="k"><span class="pre">property</span></span><span class="w"> </span></em><span class="sig-name descname"><span class="pre">price</span></span><a class="headerlink" href="#models.C01_Product.Product.price" title="Link to this definition"></a></dt>
+<dd><p>Obtiene el precio del producto.</p>
+<dl class="field-list simple">
+<dt class="field-odd">Returns<span class="colon">:</span></dt>
+<dd class="field-odd"><p>Precio del producto.</p>
+</dd>
+<dt class="field-even">Return type<span class="colon">:</span></dt>
+<dd class="field-even"><p>float</p>
+</dd>
+</dl>
+</dd></dl>
+
+<dl class="py property">
+<dt class="sig sig-object py" id="models.C01_Product.Product.prod_id">
+<em class="property"><span class="k"><span class="pre">property</span></span><span class="w"> </span></em><span class="sig-name descname"><span class="pre">prod_id</span></span><a class="headerlink" href="#models.C01_Product.Product.prod_id" title="Link to this definition"></a></dt>
+<dd><p>Obtiene el ID del producto.</p>
+<dl class="field-list simple">
+<dt class="field-odd">Returns<span class="colon">:</span></dt>
+<dd class="field-odd"><p>ID del producto.</p>
+</dd>
+<dt class="field-even">Return type<span class="colon">:</span></dt>
+<dd class="field-even"><p>str</p>
+</dd>
+</dl>
+</dd></dl>
+
+<dl class="py property">
+<dt class="sig sig-object py" id="models.C01_Product.Product.prod_name">
+<em class="property"><span class="k"><span class="pre">property</span></span><span class="w"> </span></em><span class="sig-name descname"><span class="pre">prod_name</span></span><a class="headerlink" href="#models.C01_Product.Product.prod_name" title="Link to this definition"></a></dt>
+<dd><p>Obtiene el nombre del producto.</p>
+<dl class="field-list simple">
+<dt class="field-odd">Returns<span class="colon">:</span></dt>
+<dd class="field-odd"><p>Nombre del producto.</p>
+</dd>
+<dt class="field-even">Return type<span class="colon">:</span></dt>
+<dd class="field-even"><p>str</p>
+</dd>
+</dl>
+</dd></dl>
+
+<dl class="py property">
+<dt class="sig sig-object py" id="models.C01_Product.Product.stock">
+<em class="property"><span class="k"><span class="pre">property</span></span><span class="w"> </span></em><span class="sig-name descname"><span class="pre">stock</span></span><a class="headerlink" href="#models.C01_Product.Product.stock" title="Link to this definition"></a></dt>
+<dd><p>Obtiene la cantidad de stock del producto.</p>
+<dl class="field-list simple">
+<dt class="field-odd">Returns<span class="colon">:</span></dt>
+<dd class="field-odd"><p>Stock disponible.</p>
+</dd>
+<dt class="field-even">Return type<span class="colon">:</span></dt>
+<dd class="field-even"><p>int</p>
+</dd>
+</dl>
+</dd></dl>
+
+</dd></dl>
+
+</section>
+<section id="module-models.C02_Client">
+<span id="models-c02-client-module"></span><h2>models.C02_Client module<a class="headerlink" href="#module-models.C02_Client" title="Link to this heading"></a></h2>
+<dl class="py class">
+<dt class="sig sig-object py" id="models.C02_Client.Client">
+<em class="property"><span class="k"><span class="pre">class</span></span><span class="w"> </span></em><span class="sig-prename descclassname"><span class="pre">models.C02_Client.</span></span><span class="sig-name descname"><span class="pre">Client</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">id</span></span><span class="p"><span class="pre">:</span></span><span class="w"> </span><span class="n"><span class="pre">str</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">name</span></span><span class="p"><span class="pre">:</span></span><span class="w"> </span><span class="n"><span class="pre">str</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">email</span></span><span class="p"><span class="pre">:</span></span><span class="w"> </span><span class="n"><span class="pre">str</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">shipping_address</span></span><span class="p"><span class="pre">:</span></span><span class="w"> </span><span class="n"><span class="pre">str</span></span></em><span class="sig-paren">)</span><a class="reference internal" href="_modules/models/C02_Client.html#Client"><span class="viewcode-link"><span class="pre">[source]</span></span></a><a class="headerlink" href="#models.C02_Client.Client" title="Link to this definition"></a></dt>
+<dd><p>Bases: <code class="xref py py-class docutils literal notranslate"><span class="pre">object</span></code></p>
+<p>Representa un cliente con información de identificación, contacto y dirección de envío.</p>
+<dl class="py method">
+<dt class="sig sig-object py" id="models.C02_Client.Client.__init__">
+<span class="sig-name descname"><span class="pre">__init__</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">id</span></span><span class="p"><span class="pre">:</span></span><span class="w"> </span><span class="n"><span class="pre">str</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">name</span></span><span class="p"><span class="pre">:</span></span><span class="w"> </span><span class="n"><span class="pre">str</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">email</span></span><span class="p"><span class="pre">:</span></span><span class="w"> </span><span class="n"><span class="pre">str</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">shipping_address</span></span><span class="p"><span class="pre">:</span></span><span class="w"> </span><span class="n"><span class="pre">str</span></span></em><span class="sig-paren">)</span><a class="reference internal" href="_modules/models/C02_Client.html#Client.__init__"><span class="viewcode-link"><span class="pre">[source]</span></span></a><a class="headerlink" href="#models.C02_Client.Client.__init__" title="Link to this definition"></a></dt>
+<dd><p>Inicializa un nuevo cliente.</p>
+<dl class="field-list simple">
+<dt class="field-odd">Parameters<span class="colon">:</span></dt>
+<dd class="field-odd"><ul class="simple">
+<li><p><strong>id</strong> (<em>str</em>) -- Identificador único del cliente.</p></li>
+<li><p><strong>name</strong> (<em>str</em>) -- Nombre completo del cliente.</p></li>
+<li><p><strong>email</strong> (<em>str</em>) -- Correo electrónico del cliente.</p></li>
+<li><p><strong>shipping_address</strong> (<em>str</em>) -- Dirección de envío del cliente.</p></li>
+</ul>
+</dd>
+</dl>
+</dd></dl>
+
+<dl class="py method">
+<dt class="sig sig-object py" id="models.C02_Client.Client.__strip_lower">
+<span class="sig-name descname"><span class="pre">__strip_lower</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">string</span></span><span class="p"><span class="pre">:</span></span><span class="w"> </span><span class="n"><span class="pre">str</span></span></em><span class="sig-paren">)</span><a class="headerlink" href="#models.C02_Client.Client.__strip_lower" title="Link to this definition"></a></dt>
+<dd><p>Normaliza una cadena eliminando espacios y convirtiéndola a minúsculas.</p>
+<dl class="field-list simple">
+<dt class="field-odd">Parameters<span class="colon">:</span></dt>
+<dd class="field-odd"><p><strong>string</strong> (<em>str</em>) -- Cadena a procesar.</p>
+</dd>
+<dt class="field-even">Returns<span class="colon">:</span></dt>
+<dd class="field-even"><p>Cadena normalizada.</p>
+</dd>
+<dt class="field-odd">Return type<span class="colon">:</span></dt>
+<dd class="field-odd"><p>str</p>
+</dd>
+</dl>
+</dd></dl>
+
+<dl class="py property">
+<dt class="sig sig-object py" id="models.C02_Client.Client.client_id">
+<em class="property"><span class="k"><span class="pre">property</span></span><span class="w"> </span></em><span class="sig-name descname"><span class="pre">client_id</span></span><a class="headerlink" href="#models.C02_Client.Client.client_id" title="Link to this definition"></a></dt>
+<dd><p>Obtiene el ID del cliente.</p>
+<dl class="field-list simple">
+<dt class="field-odd">Returns<span class="colon">:</span></dt>
+<dd class="field-odd"><p>ID del cliente.</p>
+</dd>
+<dt class="field-even">Return type<span class="colon">:</span></dt>
+<dd class="field-even"><p>str</p>
+</dd>
+</dl>
+</dd></dl>
+
+<dl class="py property">
+<dt class="sig sig-object py" id="models.C02_Client.Client.client_name">
+<em class="property"><span class="k"><span class="pre">property</span></span><span class="w"> </span></em><span class="sig-name descname"><span class="pre">client_name</span></span><a class="headerlink" href="#models.C02_Client.Client.client_name" title="Link to this definition"></a></dt>
+<dd><p>Obtiene el nombre del cliente.</p>
+<dl class="field-list simple">
+<dt class="field-odd">Returns<span class="colon">:</span></dt>
+<dd class="field-odd"><p>Nombre del cliente.</p>
+</dd>
+<dt class="field-even">Return type<span class="colon">:</span></dt>
+<dd class="field-even"><p>str</p>
+</dd>
+</dl>
+</dd></dl>
+
+<dl class="py property">
+<dt class="sig sig-object py" id="models.C02_Client.Client.email">
+<em class="property"><span class="k"><span class="pre">property</span></span><span class="w"> </span></em><span class="sig-name descname"><span class="pre">email</span></span><a class="headerlink" href="#models.C02_Client.Client.email" title="Link to this definition"></a></dt>
+<dd><p>Obtiene el correo electrónico del cliente.</p>
+<dl class="field-list simple">
+<dt class="field-odd">Returns<span class="colon">:</span></dt>
+<dd class="field-odd"><p>Email del cliente.</p>
+</dd>
+<dt class="field-even">Return type<span class="colon">:</span></dt>
+<dd class="field-even"><p>str</p>
+</dd>
+</dl>
+</dd></dl>
+
+<dl class="py property">
+<dt class="sig sig-object py" id="models.C02_Client.Client.shipping_address">
+<em class="property"><span class="k"><span class="pre">property</span></span><span class="w"> </span></em><span class="sig-name descname"><span class="pre">shipping_address</span></span><a class="headerlink" href="#models.C02_Client.Client.shipping_address" title="Link to this definition"></a></dt>
+<dd><p>Obtiene la dirección de envío del cliente.</p>
+<dl class="field-list simple">
+<dt class="field-odd">Returns<span class="colon">:</span></dt>
+<dd class="field-odd"><p>Dirección de envío.</p>
+</dd>
+<dt class="field-even">Return type<span class="colon">:</span></dt>
+<dd class="field-even"><p>str</p>
+</dd>
+</dl>
+</dd></dl>
+
+</dd></dl>
+
+</section>
+<section id="module-models.C03_Order">
+<span id="models-c03-order-module"></span><h2>models.C03_Order module<a class="headerlink" href="#module-models.C03_Order" title="Link to this heading"></a></h2>
+<dl class="py class">
+<dt class="sig sig-object py" id="models.C03_Order.Order">
+<em class="property"><span class="k"><span class="pre">class</span></span><span class="w"> </span></em><span class="sig-prename descclassname"><span class="pre">models.C03_Order.</span></span><span class="sig-name descname"><span class="pre">Order</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">id</span></span><span class="p"><span class="pre">:</span></span><span class="w"> </span><span class="n"><span class="pre">str</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">client</span></span><span class="p"><span class="pre">:</span></span><span class="w"> </span><span class="n"><a class="reference internal" href="#models.C02_Client.Client" title="models.C02_Client.Client"><span class="pre">Client</span></a></span></em>, <em class="sig-param"><span class="n"><span class="pre">date</span></span><span class="p"><span class="pre">:</span></span><span class="w"> </span><span class="n"><span class="pre">str</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">products</span></span><span class="p"><span class="pre">:</span></span><span class="w"> </span><span class="n"><span class="pre">list</span></span><span class="w"> </span><span class="o"><span class="pre">=</span></span><span class="w"> </span><span class="default_value"><span class="pre">[]</span></span></em><span class="sig-paren">)</span><a class="reference internal" href="_modules/models/C03_Order.html#Order"><span class="viewcode-link"><span class="pre">[source]</span></span></a><a class="headerlink" href="#models.C03_Order.Order" title="Link to this definition"></a></dt>
+<dd><p>Bases: <code class="xref py py-class docutils literal notranslate"><span class="pre">object</span></code></p>
+<p>Representa una orden de compra realizada por un cliente, incluyendo la lista de productos y la fecha.</p>
+<dl class="py method">
+<dt class="sig sig-object py" id="models.C03_Order.Order.__init__">
+<span class="sig-name descname"><span class="pre">__init__</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">id</span></span><span class="p"><span class="pre">:</span></span><span class="w"> </span><span class="n"><span class="pre">str</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">client</span></span><span class="p"><span class="pre">:</span></span><span class="w"> </span><span class="n"><a class="reference internal" href="#models.C02_Client.Client" title="models.C02_Client.Client"><span class="pre">Client</span></a></span></em>, <em class="sig-param"><span class="n"><span class="pre">date</span></span><span class="p"><span class="pre">:</span></span><span class="w"> </span><span class="n"><span class="pre">str</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">products</span></span><span class="p"><span class="pre">:</span></span><span class="w"> </span><span class="n"><span class="pre">list</span></span><span class="w"> </span><span class="o"><span class="pre">=</span></span><span class="w"> </span><span class="default_value"><span class="pre">[]</span></span></em><span class="sig-paren">)</span><a class="reference internal" href="_modules/models/C03_Order.html#Order.__init__"><span class="viewcode-link"><span class="pre">[source]</span></span></a><a class="headerlink" href="#models.C03_Order.Order.__init__" title="Link to this definition"></a></dt>
+<dd><p>Inicializa una nueva orden.</p>
+<dl class="field-list simple">
+<dt class="field-odd">Parameters<span class="colon">:</span></dt>
+<dd class="field-odd"><ul class="simple">
+<li><p><strong>id</strong> (<em>str</em>) -- Identificador único de la orden.</p></li>
+<li><p><strong>client</strong> (<a class="reference internal" href="#models.C02_Client.Client" title="models.C02_Client.Client"><em>Client</em></a>) -- Cliente que realiza la orden.</p></li>
+<li><p><strong>date</strong> (<em>str</em>) -- Fecha de la orden.</p></li>
+<li><p><strong>products</strong> (<em>list</em><em>[</em><a class="reference internal" href="#models.C01_Product.Product" title="models.C01_Product.Product"><em>Product</em></a><em>]</em>) -- Lista de productos en la orden.</p></li>
+</ul>
+</dd>
+</dl>
+</dd></dl>
+
+<dl class="py method">
+<dt class="sig sig-object py" id="models.C03_Order.Order.__strip_lower">
+<span class="sig-name descname"><span class="pre">__strip_lower</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">string</span></span><span class="p"><span class="pre">:</span></span><span class="w"> </span><span class="n"><span class="pre">str</span></span></em><span class="sig-paren">)</span><a class="headerlink" href="#models.C03_Order.Order.__strip_lower" title="Link to this definition"></a></dt>
+<dd><p>Normaliza una cadena eliminando espacios y convirtiéndola a minúsculas.</p>
+<dl class="field-list simple">
+<dt class="field-odd">Parameters<span class="colon">:</span></dt>
+<dd class="field-odd"><p><strong>string</strong> (<em>str</em>) -- Cadena a procesar.</p>
+</dd>
+<dt class="field-even">Returns<span class="colon">:</span></dt>
+<dd class="field-even"><p>Cadena normalizada.</p>
+</dd>
+<dt class="field-odd">Return type<span class="colon">:</span></dt>
+<dd class="field-odd"><p>str</p>
+</dd>
+</dl>
+</dd></dl>
+
+<dl class="py method">
+<dt class="sig sig-object py" id="models.C03_Order.Order.add_prod">
+<span class="sig-name descname"><span class="pre">add_prod</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">prod</span></span><span class="p"><span class="pre">:</span></span><span class="w"> </span><span class="n"><a class="reference internal" href="#models.C01_Product.Product" title="models.C01_Product.Product"><span class="pre">Product</span></a></span></em><span class="sig-paren">)</span><a class="reference internal" href="_modules/models/C03_Order.html#Order.add_prod"><span class="viewcode-link"><span class="pre">[source]</span></span></a><a class="headerlink" href="#models.C03_Order.Order.add_prod" title="Link to this definition"></a></dt>
+<dd><p>Agrega un producto a la orden.</p>
+<dl class="field-list simple">
+<dt class="field-odd">Parameters<span class="colon">:</span></dt>
+<dd class="field-odd"><p><strong>prod</strong> (<a class="reference internal" href="#models.C01_Product.Product" title="models.C01_Product.Product"><em>Product</em></a>) -- Producto a agregar.</p>
+</dd>
+</dl>
+</dd></dl>
+
+<dl class="py method">
+<dt class="sig sig-object py" id="models.C03_Order.Order.calc_total">
+<span class="sig-name descname"><span class="pre">calc_total</span></span><span class="sig-paren">(</span><span class="sig-paren">)</span><a class="reference internal" href="_modules/models/C03_Order.html#Order.calc_total"><span class="viewcode-link"><span class="pre">[source]</span></span></a><a class="headerlink" href="#models.C03_Order.Order.calc_total" title="Link to this definition"></a></dt>
+<dd><p>Calcula el total del precio de todos los productos en la orden.</p>
+<dl class="field-list simple">
+<dt class="field-odd">Returns<span class="colon">:</span></dt>
+<dd class="field-odd"><p>Total del precio.</p>
+</dd>
+<dt class="field-even">Return type<span class="colon">:</span></dt>
+<dd class="field-even"><p>float</p>
+</dd>
+</dl>
+</dd></dl>
+
+<dl class="py property">
+<dt class="sig sig-object py" id="models.C03_Order.Order.client">
+<em class="property"><span class="k"><span class="pre">property</span></span><span class="w"> </span></em><span class="sig-name descname"><span class="pre">client</span></span><a class="headerlink" href="#models.C03_Order.Order.client" title="Link to this definition"></a></dt>
+<dd><p>Obtiene el cliente asociado a la orden.</p>
+<dl class="field-list simple">
+<dt class="field-odd">Returns<span class="colon">:</span></dt>
+<dd class="field-odd"><p>Cliente.</p>
+</dd>
+<dt class="field-even">Return type<span class="colon">:</span></dt>
+<dd class="field-even"><p><a class="reference internal" href="#models.C02_Client.Client" title="models.C02_Client.Client">Client</a></p>
+</dd>
+</dl>
+</dd></dl>
+
+<dl class="py property">
+<dt class="sig sig-object py" id="models.C03_Order.Order.date">
+<em class="property"><span class="k"><span class="pre">property</span></span><span class="w"> </span></em><span class="sig-name descname"><span class="pre">date</span></span><a class="headerlink" href="#models.C03_Order.Order.date" title="Link to this definition"></a></dt>
+<dd><p>Obtiene la fecha de la orden.</p>
+<dl class="field-list simple">
+<dt class="field-odd">Returns<span class="colon">:</span></dt>
+<dd class="field-odd"><p>Fecha.</p>
+</dd>
+<dt class="field-even">Return type<span class="colon">:</span></dt>
+<dd class="field-even"><p>str</p>
+</dd>
+</dl>
+</dd></dl>
+
+<dl class="py property">
+<dt class="sig sig-object py" id="models.C03_Order.Order.id">
+<em class="property"><span class="k"><span class="pre">property</span></span><span class="w"> </span></em><span class="sig-name descname"><span class="pre">id</span></span><a class="headerlink" href="#models.C03_Order.Order.id" title="Link to this definition"></a></dt>
+<dd><p>Obtiene el ID de la orden.</p>
+<dl class="field-list simple">
+<dt class="field-odd">Returns<span class="colon">:</span></dt>
+<dd class="field-odd"><p>ID de la orden.</p>
+</dd>
+<dt class="field-even">Return type<span class="colon">:</span></dt>
+<dd class="field-even"><p>str</p>
+</dd>
+</dl>
+</dd></dl>
+
+<dl class="py property">
+<dt class="sig sig-object py" id="models.C03_Order.Order.order_id">
+<em class="property"><span class="k"><span class="pre">property</span></span><span class="w"> </span></em><span class="sig-name descname"><span class="pre">order_id</span></span><a class="headerlink" href="#models.C03_Order.Order.order_id" title="Link to this definition"></a></dt>
+<dd><p>Obtiene el ID de la orden.</p>
+<dl class="field-list simple">
+<dt class="field-odd">Returns<span class="colon">:</span></dt>
+<dd class="field-odd"><p>ID de la orden.</p>
+</dd>
+<dt class="field-even">Return type<span class="colon">:</span></dt>
+<dd class="field-even"><p>str</p>
+</dd>
+</dl>
+</dd></dl>
+
+<dl class="py property">
+<dt class="sig sig-object py" id="models.C03_Order.Order.products">
+<em class="property"><span class="k"><span class="pre">property</span></span><span class="w"> </span></em><span class="sig-name descname"><span class="pre">products</span></span><a class="headerlink" href="#models.C03_Order.Order.products" title="Link to this definition"></a></dt>
+<dd><p>Obtiene la lista de productos en la orden.</p>
+<dl class="field-list simple">
+<dt class="field-odd">Returns<span class="colon">:</span></dt>
+<dd class="field-odd"><p>Lista de productos.</p>
+</dd>
+<dt class="field-even">Return type<span class="colon">:</span></dt>
+<dd class="field-even"><p>list[<a class="reference internal" href="#models.C01_Product.Product" title="models.C01_Product.Product">Product</a>]</p>
+</dd>
+</dl>
+</dd></dl>
+
+<dl class="py method">
+<dt class="sig sig-object py" id="models.C03_Order.Order.show_product">
+<span class="sig-name descname"><span class="pre">show_product</span></span><span class="sig-paren">(</span><span class="sig-paren">)</span><a class="reference internal" href="_modules/models/C03_Order.html#Order.show_product"><span class="viewcode-link"><span class="pre">[source]</span></span></a><a class="headerlink" href="#models.C03_Order.Order.show_product" title="Link to this definition"></a></dt>
+<dd><p>Muestra por consola los productos contenidos en la orden.</p>
+</dd></dl>
+
+</dd></dl>
+
+</section>
+<section id="module-models.C04_Review">
+<span id="models-c04-review-module"></span><h2>models.C04_Review module<a class="headerlink" href="#module-models.C04_Review" title="Link to this heading"></a></h2>
+<dl class="py class">
+<dt class="sig sig-object py" id="models.C04_Review.Review">
+<em class="property"><span class="k"><span class="pre">class</span></span><span class="w"> </span></em><span class="sig-prename descclassname"><span class="pre">models.C04_Review.</span></span><span class="sig-name descname"><span class="pre">Review</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">review_id</span></span><span class="p"><span class="pre">:</span></span><span class="w"> </span><span class="n"><span class="pre">str</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">product</span></span><span class="p"><span class="pre">:</span></span><span class="w"> </span><span class="n"><a class="reference internal" href="#models.C01_Product.Product" title="models.C01_Product.Product"><span class="pre">Product</span></a></span></em>, <em class="sig-param"><span class="n"><span class="pre">client</span></span><span class="p"><span class="pre">:</span></span><span class="w"> </span><span class="n"><a class="reference internal" href="#models.C02_Client.Client" title="models.C02_Client.Client"><span class="pre">Client</span></a></span></em>, <em class="sig-param"><span class="n"><span class="pre">commentary</span></span><span class="p"><span class="pre">:</span></span><span class="w"> </span><span class="n"><span class="pre">str</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">rating</span></span><span class="p"><span class="pre">:</span></span><span class="w"> </span><span class="n"><span class="pre">int</span></span></em><span class="sig-paren">)</span><a class="reference internal" href="_modules/models/C04_Review.html#Review"><span class="viewcode-link"><span class="pre">[source]</span></span></a><a class="headerlink" href="#models.C04_Review.Review" title="Link to this definition"></a></dt>
+<dd><p>Bases: <a class="reference internal" href="#models.C01_Product.Product" title="models.C01_Product.Product"><code class="xref py py-class docutils literal notranslate"><span class="pre">Product</span></code></a>, <a class="reference internal" href="#models.C02_Client.Client" title="models.C02_Client.Client"><code class="xref py py-class docutils literal notranslate"><span class="pre">Client</span></code></a></p>
+<p>Representa una reseña hecha por un cliente sobre un producto.</p>
+<dl class="simple">
+<dt>Hereda de:</dt><dd><ul class="simple">
+<li><p>Product: para asociar la reseña al producto evaluado.</p></li>
+<li><p>Client: para asociar la reseña al cliente que la realiza.</p></li>
+</ul>
+</dd>
+</dl>
+<dl class="py method">
+<dt class="sig sig-object py" id="models.C04_Review.Review.__init__">
+<span class="sig-name descname"><span class="pre">__init__</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">review_id</span></span><span class="p"><span class="pre">:</span></span><span class="w"> </span><span class="n"><span class="pre">str</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">product</span></span><span class="p"><span class="pre">:</span></span><span class="w"> </span><span class="n"><a class="reference internal" href="#models.C01_Product.Product" title="models.C01_Product.Product"><span class="pre">Product</span></a></span></em>, <em class="sig-param"><span class="n"><span class="pre">client</span></span><span class="p"><span class="pre">:</span></span><span class="w"> </span><span class="n"><a class="reference internal" href="#models.C02_Client.Client" title="models.C02_Client.Client"><span class="pre">Client</span></a></span></em>, <em class="sig-param"><span class="n"><span class="pre">commentary</span></span><span class="p"><span class="pre">:</span></span><span class="w"> </span><span class="n"><span class="pre">str</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">rating</span></span><span class="p"><span class="pre">:</span></span><span class="w"> </span><span class="n"><span class="pre">int</span></span></em><span class="sig-paren">)</span><a class="reference internal" href="_modules/models/C04_Review.html#Review.__init__"><span class="viewcode-link"><span class="pre">[source]</span></span></a><a class="headerlink" href="#models.C04_Review.Review.__init__" title="Link to this definition"></a></dt>
+<dd><p>Inicializa una reseña con información del producto, cliente, comentario y puntuación.</p>
+<dl class="field-list simple">
+<dt class="field-odd">Parameters<span class="colon">:</span></dt>
+<dd class="field-odd"><ul class="simple">
+<li><p><strong>review_id</strong> (<em>str</em>) -- Identificador único de la reseña.</p></li>
+<li><p><strong>product</strong> (<a class="reference internal" href="#models.C01_Product.Product" title="models.C01_Product.Product"><em>Product</em></a>) -- Producto evaluado.</p></li>
+<li><p><strong>client</strong> (<a class="reference internal" href="#models.C02_Client.Client" title="models.C02_Client.Client"><em>Client</em></a>) -- Cliente que realiza la reseña.</p></li>
+<li><p><strong>commentary</strong> (<em>str</em>) -- Comentario del cliente.</p></li>
+<li><p><strong>rating</strong> (<em>int</em>) -- Puntuación de la reseña (0 a 5).</p></li>
+</ul>
+</dd>
+</dl>
+</dd></dl>
+
+<dl class="py method">
+<dt class="sig sig-object py" id="models.C04_Review.Review._strip_lower">
+<span class="sig-name descname"><span class="pre">_strip_lower</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">string</span></span><span class="p"><span class="pre">:</span></span><span class="w"> </span><span class="n"><span class="pre">str</span></span></em><span class="sig-paren">)</span><a class="headerlink" href="#models.C04_Review.Review._strip_lower" title="Link to this definition"></a></dt>
+<dd><p>Elimina espacios y convierte a minúsculas una cadena.</p>
+<dl class="field-list simple">
+<dt class="field-odd">Parameters<span class="colon">:</span></dt>
+<dd class="field-odd"><p><strong>string</strong> (<em>str</em>) -- Cadena de texto a procesar.</p>
+</dd>
+<dt class="field-even">Returns<span class="colon">:</span></dt>
+<dd class="field-even"><p>Cadena normalizada (sin espacios y en minúsculas).</p>
+</dd>
+<dt class="field-odd">Return type<span class="colon">:</span></dt>
+<dd class="field-odd"><p>str</p>
+</dd>
+</dl>
+</dd></dl>
+
+<dl class="py method">
+<dt class="sig sig-object py" id="models.C04_Review.Review.act_stock">
+<span class="sig-name descname"><span class="pre">act_stock</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">quantity</span></span><span class="p"><span class="pre">:</span></span><span class="w"> </span><span class="n"><span class="pre">int</span></span></em><span class="sig-paren">)</span><a class="headerlink" href="#models.C04_Review.Review.act_stock" title="Link to this definition"></a></dt>
+<dd><p>Actualiza la cantidad de stock del producto.</p>
+<dl class="field-list simple">
+<dt class="field-odd">Parameters<span class="colon">:</span></dt>
+<dd class="field-odd"><p><strong>quantity</strong> (<em>int</em>) -- Nueva cantidad de stock.</p>
+</dd>
+</dl>
+</dd></dl>
+
+<dl class="py property">
+<dt class="sig sig-object py" id="models.C04_Review.Review.client_id">
+<em class="property"><span class="k"><span class="pre">property</span></span><span class="w"> </span></em><span class="sig-name descname"><span class="pre">client_id</span></span><a class="headerlink" href="#models.C04_Review.Review.client_id" title="Link to this definition"></a></dt>
+<dd><p>Obtiene el ID del cliente.</p>
+<dl class="field-list simple">
+<dt class="field-odd">Returns<span class="colon">:</span></dt>
+<dd class="field-odd"><p>ID del cliente.</p>
+</dd>
+<dt class="field-even">Return type<span class="colon">:</span></dt>
+<dd class="field-even"><p>str</p>
+</dd>
+</dl>
+</dd></dl>
+
+<dl class="py property">
+<dt class="sig sig-object py" id="models.C04_Review.Review.client_name">
+<em class="property"><span class="k"><span class="pre">property</span></span><span class="w"> </span></em><span class="sig-name descname"><span class="pre">client_name</span></span><a class="headerlink" href="#models.C04_Review.Review.client_name" title="Link to this definition"></a></dt>
+<dd><p>Obtiene el nombre del cliente.</p>
+<dl class="field-list simple">
+<dt class="field-odd">Returns<span class="colon">:</span></dt>
+<dd class="field-odd"><p>Nombre del cliente.</p>
+</dd>
+<dt class="field-even">Return type<span class="colon">:</span></dt>
+<dd class="field-even"><p>str</p>
+</dd>
+</dl>
+</dd></dl>
+
+<dl class="py property">
+<dt class="sig sig-object py" id="models.C04_Review.Review.commentary">
+<em class="property"><span class="k"><span class="pre">property</span></span><span class="w"> </span></em><span class="sig-name descname"><span class="pre">commentary</span></span><a class="headerlink" href="#models.C04_Review.Review.commentary" title="Link to this definition"></a></dt>
+<dd><p>Obtiene el comentario de la reseña.</p>
+<dl class="field-list simple">
+<dt class="field-odd">Returns<span class="colon">:</span></dt>
+<dd class="field-odd"><p>Comentario.</p>
+</dd>
+<dt class="field-even">Return type<span class="colon">:</span></dt>
+<dd class="field-even"><p>str</p>
+</dd>
+</dl>
+</dd></dl>
+
+<dl class="py property">
+<dt class="sig sig-object py" id="models.C04_Review.Review.email">
+<em class="property"><span class="k"><span class="pre">property</span></span><span class="w"> </span></em><span class="sig-name descname"><span class="pre">email</span></span><a class="headerlink" href="#models.C04_Review.Review.email" title="Link to this definition"></a></dt>
+<dd><p>Obtiene el correo electrónico del cliente.</p>
+<dl class="field-list simple">
+<dt class="field-odd">Returns<span class="colon">:</span></dt>
+<dd class="field-odd"><p>Email del cliente.</p>
+</dd>
+<dt class="field-even">Return type<span class="colon">:</span></dt>
+<dd class="field-even"><p>str</p>
+</dd>
+</dl>
+</dd></dl>
+
+<dl class="py property">
+<dt class="sig sig-object py" id="models.C04_Review.Review.price">
+<em class="property"><span class="k"><span class="pre">property</span></span><span class="w"> </span></em><span class="sig-name descname"><span class="pre">price</span></span><a class="headerlink" href="#models.C04_Review.Review.price" title="Link to this definition"></a></dt>
+<dd><p>Obtiene el precio del producto.</p>
+<dl class="field-list simple">
+<dt class="field-odd">Returns<span class="colon">:</span></dt>
+<dd class="field-odd"><p>Precio del producto.</p>
+</dd>
+<dt class="field-even">Return type<span class="colon">:</span></dt>
+<dd class="field-even"><p>float</p>
+</dd>
+</dl>
+</dd></dl>
+
+<dl class="py property">
+<dt class="sig sig-object py" id="models.C04_Review.Review.prod_id">
+<em class="property"><span class="k"><span class="pre">property</span></span><span class="w"> </span></em><span class="sig-name descname"><span class="pre">prod_id</span></span><a class="headerlink" href="#models.C04_Review.Review.prod_id" title="Link to this definition"></a></dt>
+<dd><p>Obtiene el ID del producto.</p>
+<dl class="field-list simple">
+<dt class="field-odd">Returns<span class="colon">:</span></dt>
+<dd class="field-odd"><p>ID del producto.</p>
+</dd>
+<dt class="field-even">Return type<span class="colon">:</span></dt>
+<dd class="field-even"><p>str</p>
+</dd>
+</dl>
+</dd></dl>
+
+<dl class="py property">
+<dt class="sig sig-object py" id="models.C04_Review.Review.prod_name">
+<em class="property"><span class="k"><span class="pre">property</span></span><span class="w"> </span></em><span class="sig-name descname"><span class="pre">prod_name</span></span><a class="headerlink" href="#models.C04_Review.Review.prod_name" title="Link to this definition"></a></dt>
+<dd><p>Obtiene el nombre del producto.</p>
+<dl class="field-list simple">
+<dt class="field-odd">Returns<span class="colon">:</span></dt>
+<dd class="field-odd"><p>Nombre del producto.</p>
+</dd>
+<dt class="field-even">Return type<span class="colon">:</span></dt>
+<dd class="field-even"><p>str</p>
+</dd>
+</dl>
+</dd></dl>
+
+<dl class="py property">
+<dt class="sig sig-object py" id="models.C04_Review.Review.rating">
+<em class="property"><span class="k"><span class="pre">property</span></span><span class="w"> </span></em><span class="sig-name descname"><span class="pre">rating</span></span><a class="headerlink" href="#models.C04_Review.Review.rating" title="Link to this definition"></a></dt>
+<dd><p>Obtiene la puntuación de la reseña.</p>
+<dl class="field-list simple">
+<dt class="field-odd">Returns<span class="colon">:</span></dt>
+<dd class="field-odd"><p>Puntuación (entre 1 y 5).</p>
+</dd>
+<dt class="field-even">Return type<span class="colon">:</span></dt>
+<dd class="field-even"><p>int</p>
+</dd>
+</dl>
+</dd></dl>
+
+<dl class="py property">
+<dt class="sig sig-object py" id="models.C04_Review.Review.review_id">
+<em class="property"><span class="k"><span class="pre">property</span></span><span class="w"> </span></em><span class="sig-name descname"><span class="pre">review_id</span></span><a class="headerlink" href="#models.C04_Review.Review.review_id" title="Link to this definition"></a></dt>
+<dd><p>Obtiene el ID de la reseña.</p>
+<dl class="field-list simple">
+<dt class="field-odd">Returns<span class="colon">:</span></dt>
+<dd class="field-odd"><p>ID de la reseña.</p>
+</dd>
+<dt class="field-even">Return type<span class="colon">:</span></dt>
+<dd class="field-even"><p>str</p>
+</dd>
+</dl>
+</dd></dl>
+
+<dl class="py property">
+<dt class="sig sig-object py" id="models.C04_Review.Review.shipping_address">
+<em class="property"><span class="k"><span class="pre">property</span></span><span class="w"> </span></em><span class="sig-name descname"><span class="pre">shipping_address</span></span><a class="headerlink" href="#models.C04_Review.Review.shipping_address" title="Link to this definition"></a></dt>
+<dd><p>Obtiene la dirección de envío del cliente.</p>
+<dl class="field-list simple">
+<dt class="field-odd">Returns<span class="colon">:</span></dt>
+<dd class="field-odd"><p>Dirección de envío.</p>
+</dd>
+<dt class="field-even">Return type<span class="colon">:</span></dt>
+<dd class="field-even"><p>str</p>
+</dd>
+</dl>
+</dd></dl>
+
+<dl class="py property">
+<dt class="sig sig-object py" id="models.C04_Review.Review.stock">
+<em class="property"><span class="k"><span class="pre">property</span></span><span class="w"> </span></em><span class="sig-name descname"><span class="pre">stock</span></span><a class="headerlink" href="#models.C04_Review.Review.stock" title="Link to this definition"></a></dt>
+<dd><p>Obtiene la cantidad de stock del producto.</p>
+<dl class="field-list simple">
+<dt class="field-odd">Returns<span class="colon">:</span></dt>
+<dd class="field-odd"><p>Stock disponible.</p>
+</dd>
+<dt class="field-even">Return type<span class="colon">:</span></dt>
+<dd class="field-even"><p>int</p>
+</dd>
+</dl>
+</dd></dl>
+
+</dd></dl>
+
+</section>
+<section id="module-models">
+<span id="module-contents"></span><h2>Module contents<a class="headerlink" href="#module-models" title="Link to this heading"></a></h2>
+</section>
+</section>
+
+
+           </div>
+          </div>
+          <footer><div class="rst-footer-buttons" role="navigation" aria-label="Footer">
+        <a href="main.html" class="btn btn-neutral float-left" title="main module" accesskey="p" rel="prev"><span class="fa fa-arrow-circle-left" aria-hidden="true"></span> Previous</a>
+        <a href="modules.html" class="btn btn-neutral float-right" title="modules package" accesskey="n" rel="next">Next <span class="fa fa-arrow-circle-right" aria-hidden="true"></span></a>
+    </div>
+
+  <hr/>
+
+  <div role="contentinfo">
+    <p>&#169; Copyright 2025, Issa El Mokadem.</p>
+  </div>
+
+  Built with <a href="https://www.sphinx-doc.org/">Sphinx</a> using a
+    <a href="https://github.com/readthedocs/sphinx_rtd_theme">theme</a>
+    provided by <a href="https://readthedocs.org">Read the Docs</a>.
+   
+
+</footer>
+        </div>
+      </div>
+    </section>
+  </div>
+  <script>
+      jQuery(function () {
+          SphinxRtdTheme.Navigation.enable(true);
+      });
+  </script> 
+
+</body>
+</html>
