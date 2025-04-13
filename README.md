@@ -112,13 +112,7 @@ Contributions are welcome! Please feel free to submit a Pull Request. For major 
 
 Please make sure to update tests and documentation as appropriate.
 
-## License
-
-This project is open source and available under the [MIT License](LICENSE).
-
 ## Author
 
 Issa El Mokadem
-
-For questions and feedback, please open an issue in the GitHub repository.
 
